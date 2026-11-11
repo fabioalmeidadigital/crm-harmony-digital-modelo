@@ -1,0 +1,4 @@
+project_id = "SEU_PROJECT_REF"
+
+[functions.whatsapp-restart-all]
+verify_jwt = false

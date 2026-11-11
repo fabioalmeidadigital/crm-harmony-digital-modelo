@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790025687842,
+      "tag": "0000_add_disqualification_and_waitlist_stage",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790025729820,
+      "tag": "0001_response_time_function",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790794087057,
+      "tag": "0002_attendance_sheet_fields",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791202513584,
+      "tag": "0003_sheet_options",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791220593078,
+      "tag": "0004_perf_indexes",
+      "breakpoints": true
+    }
+  ]
+}

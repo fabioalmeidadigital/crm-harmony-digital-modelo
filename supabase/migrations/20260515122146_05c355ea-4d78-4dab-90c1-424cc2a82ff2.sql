@@ -1,0 +1,1 @@
+UPDATE public.chat_messages SET content = '[mensagem não suportada]' WHERE content = '[object Object]';

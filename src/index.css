@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 219 100% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 219 100% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 219 100% 18%;
+
+    --primary: 219 100% 18%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 24% 93%;
+    --secondary-foreground: 219 100% 18%;
+
+    --muted: 220 24% 93%;
+    --muted-foreground: 219 18% 59%;
+
+    --accent: 4 100% 70%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 24% 90%;
+    --input: 220 24% 90%;
+    --ring: 4 100% 70%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 219 100% 18%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 4 100% 70%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 219 80% 25%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 219 80% 25%;
+    --sidebar-ring: 4 100% 70%;
+
+    --coral: 4 100% 70%;
+    --coral-light: 4 100% 80%;
+    --coral-lighter: 4 100% 95%;
+    --blue-medium: 219 40% 35%;
+    --blue-light: 219 25% 59%;
+    --blue-lighter: 220 24% 93%;
+    --whatsapp: 142 70% 49%;
+    --whatsapp-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 219 100% 10%;
+    --foreground: 0 0% 95%;
+    --card: 219 80% 14%;
+    --card-foreground: 0 0% 95%;
+    --popover: 219 80% 14%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 4 100% 70%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 219 80% 20%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 219 60% 20%;
+    --muted-foreground: 219 18% 65%;
+    --accent: 4 100% 70%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 219 60% 20%;
+    --input: 219 60% 20%;
+    --ring: 4 100% 70%;
+    --sidebar-background: 219 100% 12%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 4 100% 70%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 219 80% 18%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 219 60% 18%;
+    --sidebar-ring: 4 100% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
